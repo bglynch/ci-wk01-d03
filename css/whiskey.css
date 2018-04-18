@@ -1,0 +1,37 @@
+.navbar-default{
+    background-color: #9c7b51;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.navbar-default .navbar-brand {
+    color: #000;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+}
+.active{
+            font-weight:800;
+        }
+        .jumbotron{
+            background-image: url(https://jamesonwhiskey.s3-eu-west-1.amazonaws.com/stage/basic_uploads/sir-trevor/st-block-12-1508928905791-raw_600x334.gif);
+            background-size: cover;
+        }
+        .jumbotron h1{
+                color: whitesmoke;
+                position: relative;
+                top: -1em;
+                left: -0.3em;
+                text-shadow: 0 0 20px black;
+                font-family: 'Lobster', cursive;
+        }
+        .jumbotron p{
+                color: whitesmoke;
+        }
+        .quote{
+            margin-bottom:20px;
+        }
+        cite{
+            font-size: medium;
+            font-family: serif;
+            padding-top: 0px;
+            margin-top: 10px;
+            display: block;

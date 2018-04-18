@@ -5,25 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whiskey Drop | Taste a new whiskey every month</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Lobster" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <style type="text/css">
-        .active{
-            font-weight:800;
-        }
-        .jumbotron{
-            background-image: url(https://jamesonwhiskey.s3-eu-west-1.amazonaws.com/stage/basic_uploads/sir-trevor/st-block-12-1508928905791-raw_600x334.gif);
-            background-size: 100%;
-        }
-        .jumbotron h1{
-                color: whitesmoke;
-                position: relative;
-                top: -55px;
-                left: -35px
-        }
-        .jumbotron p{
-                color: whitesmoke;
-        }
-    </style>
+    <link rel="stylesheet" href="css/whiskey.css" type="text/css" />
 </head>
 
 <body>
@@ -38,8 +22,10 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="">Home</a></li>
                 <li><a href="">About</a></li>
-                <li><a href="">Sign In</a></li>
+                <li><a href="">Contact</a></li>
+                <li class="visible-xs"><a href="">Sign In</a></li>
             </ul>
+            
         </div>
     </nav>
     <!-- /.navbar -->
@@ -72,13 +58,27 @@
         <section class="quotes">
             <h2 class="text-uppercase">Quotes:</h2>
             <div class="quote">
-                <blockquote>I've been introduced to more than 10 great international whiskeys I never knew about.</blockquote>
-                <cite>- Jane Doe</cite>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <img src="images/girl-image.png" class="img-circle media-object " height="100" width="100">
+                    </div>
+                    <blockquote class="col-sm-10">"I've been introduced to more than 10 great international whiskeys I never knew about." <br>
+                        <cite>- Jane Doe</cite>
+                    </blockquote>
+                </div>
             </div>
             <div class="quote">
-                <blockquote>I haven't been sober in months!</blockquote>
-                <cite>- Jane Doe</cite>
+                <div class="row">
+                    <div class="col-sm-2">
+                        <img src="images/guy-image.png" class="img-circle media-object " height="100" width="100">
+                    </div>
+                    <blockquote class="col-sm-10">"I've been introduced to more than 10 great international whiskeys I never knew about." <br>
+                        <cite>- Jane Doe</cite>
+                    </blockquote>
+                </div>
             </div>
+
+            
         </section>
         <!-- /.quotes -->
         <hr>
